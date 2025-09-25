@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "d0cc15fa-daff-49b5-b794-b5157c52af0a",
+		"name": "smb_demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44392312",
+		"_collection_link": "https://mangesh-7599868.postman.co/workspace/Mangesh's-Workspace~dfa9db99-61c6-40b6-8f48-163b6c194e4e/collection/44392312-d0cc15fa-daff-49b5-b794-b5157c52af0a?action=share&source=collection_link&creator=44392312"
+	},
+	"item": [
+		{
+			"name": "book_list_ext",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "X-API-KEY",
+						"value": "123456789_POSTMAN",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/book_list",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"book_list"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
